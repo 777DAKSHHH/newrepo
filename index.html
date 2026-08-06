@@ -172,6 +172,27 @@
           </div>
         </div>
 
+        <!-- Exam Essentials Test 1 -->
+        <div class="test-card">
+          <div class="test-card-header">
+            <span class="test-badge badge-green">NEW • Exam Essentials 1</span>
+            <h4 class="test-card-title">Academic Reading Test 1</h4>
+          </div>
+          <div class="test-card-body">
+            <p class="test-card-desc">Practice passages covering racy telenovelas in Brazil, tree house building techniques, and animal cognitive intelligence studies.</p>
+            <div class="test-meta">
+              <span><i class="bi bi-file-text"></i> 3 Passages</span>
+              <span><i class="bi bi-question-circle"></i> 40 Questions</span>
+              <span><i class="bi bi-clock"></i> 60 Mins</span>
+            </div>
+          </div>
+          <div class="test-card-footer">
+            <button onclick="startPractice('essentials1')" class="btn-premium">
+              Start Practice <i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
       </div>
 
       <!-- Section: Attempt History -->
@@ -337,7 +358,8 @@
       const names = {
         'cam6': 'CAM 6 Test 2',
         'ontrack': 'IELTS On Track Test 2',
-        'cam16': 'CAM 16 Test 1'
+        'cam16': 'CAM 16 Test 1',
+        'essentials1': 'Exam Essentials 1'
       };
       return names[id] || id;
     }

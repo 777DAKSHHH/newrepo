@@ -1018,5 +1018,126 @@ So, the answer is: <b>E</b>`
   },
   "c16-40": {
     "explanation": "<h4>Question 40</h4><b>Authorities should ensure adequately paid work for everyone.</b><br><br><b>Keywords:</b> authorities, should take measures, ensure, will be, adequately paid work, everyone<br><br>In paragraph 13, line 1 (Ewan McGaughey): '“If there is going to be change to jobs... then I’d like to see governments seizing the opportunity to improve policy to enforce good job security... guarantee full employment, fair incomes...”' governments = authorities, good job security/fair incomes = adequately paid work.<br><br>So, the answer is: <b>C (Ewan McGaughey)</b>"
+  },
+  // Exam Essentials Test 1 Explanations
+  "ess-1": {
+    "explanation": "<h4>Question 1</h4><b>According to the text, which of the following features is typical of Brazilian telenovelas?</b><br><br><b>Keywords:</b> Brazilian telenovelas, typical features<br><br>Paragraph 1 states: 'Their colourful storylines of glamorous love triangles, paternity mysteries and rags-to-riches successes...' glamorous love triangles and paternity mysteries indicate that relationships are unstable.<br><br>So, the answer is: <b>B (Relationships are often unstable.)</b>"
+  },
+  "ess-2": {
+    "explanation": "<h4>Question 2</h4><b>TV Globo soap operas...</b><br><br><b>Keywords:</b> TV Globo, soap operas<br><br>Paragraph 4 states: '...the telenovelas' plotlines have influenced the outcome of elections.' Influencing elections indicates a degree of political content.<br><br>So, the answer is: <b>C (have a degree of political content.)</b>"
+  },
+  "ess-3": {
+    "explanation": "<h4>Question 3</h4><b>Viewers are attracted to Brazilian soap operas because...</b><br><br><b>Keywords:</b> attracted, Brazilian soap operas, because<br><br>Paragraph 5 explains that telenovelas depict characters who 'have fewer children and are more likely to be separated or divorced. Viewers instantly took to that image.' This represents an 'aspirational ethos', meaning viewers want to be like them.<br><br>So, the answer is: <b>A (they would like to be more like the characters in them.)</b>"
+  },
+  "ess-4": {
+    "explanation": "<h4>Question 4</h4><b>What is the point made in the sixth paragraph?</b><br><br><b>Keywords:</b> sixth paragraph, point made<br><br>Paragraph 6 details the disagreement: TV Globo says their dramas merely reflect society and don't influence opinions, whereas Mr. Chong rejects this, noting babies are named after soap stars in broadcast areas. This shows a clear disagreement about how influential the dramas are.<br><br>So, the answer is: <b>D (There is disagreement about how influential TV drama really is.)</b>"
+  },
+  "ess-5": {
+    "explanation": "<h4>Question 5</h4><b>changes to wedding tradition</b><br><br><b>Keywords:</b> wedding tradition, changes<br><br>Paragraph 8 describes the Indian radio drama *Tinka Tinka Sukh*, noting it 'encouraged renouncement of the local custom of demanding a bridal dowry.' Dowry is a wedding tradition, and renouncing it represents a change.<br><br>So, the answer is: <b>B (India)</b>"
+  },
+  "ess-6": {
+    "explanation": "<h4>Question 6</h4><b>a relationship destined to fail</b><br><br><b>Keywords:</b> relationship, destined to fail, doomed romance<br><br>Paragraph 9 describes the Rwandan radio serial *Musekeweya*: 'the story centres on... the doomed romance between two of its characters.' Doomed romance means a relationship destined to fail.<br><br>So, the answer is: <b>D (Rwanda)</b>"
+  },
+  "ess-7": {
+    "explanation": "<h4>Question 7</h4><b>a desire to learn how to read</b><br><br><b>Keywords:</b> desire, learn to read, literacy classes<br><br>Paragraph 10 describes the Peruvian telenovela *Simplemente Maria*: 'Across the country, increased enrolment in literacy classes coincided with the storyline.' Enrolment in literacy classes indicates a desire to learn how to read.<br><br>So, the answer is: <b>C (Peru)</b>"
+  },
+  "ess-8": {
+    "explanation": "<h4>Question 8</h4><b>a reflection of real-life social and political unrest</b><br><br><b>Keywords:</b> reflection, real-life social and political unrest, backdrop<br><br>Paragraph 9 explains the Rwandan radio serial *Musekeweya*: 'the backdrop is very evidently the period just before the horrendous events of 1994' (which refers to the Rwandan genocide).<br><br>So, the answer is: <b>D (Rwanda)</b>"
+  },
+  "ess-9": {
+    "explanation": "<h4>Question 9</h4><b>domestic violence being less tolerated</b><br><br><b>Keywords:</b> domestic violence, less tolerated, beating wife<br><br>Paragraph 8 describes the impact of the Indian radio drama: 'soap viewers were more likely to refute the commonly held view that a husband was justified in beating his wife.'<br><br>So, the answer is: <b>B (India)</b>"
+  },
+  "ess-10": {
+    "explanation": "<h4>Question 10</h4><b>changing perceptions of beauty</b><br><br><b>Keywords:</b> changing perceptions, beauty, slender blondes<br><br>Paragraph 11 describes the Brazilian soap operas: 'The increased presence of slender blondes is credited with driving a shift away from what was once a nationwide preference for guitar-shaped brunettes.'<br><br>So, the answer is: <b>A (Brazil)</b>"
+  },
+  "ess-11": {
+    "explanation": "<h4>Question 11</h4><b>an apparent inability to separate reality and fantasy</b><br><br><b>Keywords:</b> separate reality and fantasy, married, church<br><br>Paragraph 10 mentions that when the fictional character Maria from *Simplemente Maria* married, 'thousands of avid viewers collected outside the church to bestow gifts on the happy couple.' This shows viewers conflating the fictional wedding with a real one.<br><br>So, the answer is: <b>C (Peru)</b>"
+  },
+  "ess-12": {
+    "explanation": "<h4>Question 12</h4><b>What is the conclusion that should be drawn from reading this passage?</b><br><br><b>Keywords:</b> conclusion, drawn, reading this passage<br><br>The passage provides multiple examples across Brazil, India, Peru, and Rwanda to demonstrate that people are heavily influenced by what they watch or hear on television and radio dramas, producing positive and measurable social changes. Thus, this influence has benefits.<br><br>So, the answer is: <b>B (People being influenced by what they watch on TV has some obvious benefits.)</b>"
+  },
+  "ess-13": {
+    "explanation": "<h4>Question 13</h4><b>... will provide information about restrictions that might apply to your construction.</b><br><br><b>Keywords:</b> information, restrictions, construction<br><br>Passage 2, paragraph 2, lines 1-2: 'Before you begin your tree house plans, check with your local planning authorities about any restrictions on building tree houses that may exist.'<br><br>So, the answer is: <b>local planning authorities</b>"
+  },
+  "ess-14": {
+    "explanation": "<h4>Question 14</h4><b>Planning approval is not usually necessary for a small tree house that is not a ...</b><br><br><b>Keywords:</b> planning approval, not necessary, small tree house, not a<br><br>Passage 2, paragraph 2, lines 2-3: '...if a structure is below a certain size and not used as a permanent dwelling it will not need planning approval...' House not used as a permanent dwelling = not a permanent dwelling.<br><br>So, the answer is: <b>permanent dwelling</b>"
+  },
+  "ess-15": {
+    "explanation": "<h4>Question 15</h4><b>A ... held securely in place is essential when working high up in a tree.</b><br><br><b>Keywords:</b> held securely, essential, working high up<br><br>Passage 2, paragraph 2, lines 4-6: 'Safety is vital during construction. Always use a safety harness, and firmly tie it to a strong branch.' Tied firmly = held securely in place.<br><br>So, the answer is: <b>safety harness</b> (or <b>saftey harness</b>)"
+  },
+  "ess-16": {
+    "explanation": "<h4>Question 16</h4><b>A tree house planned as ... can be built higher than one planned for children to play in.</b><br><br><b>Keywords:</b> planned as, built higher, children to play in<br><br>Passage 2, Section 'First Steps', paragraph 1, lines 2-5: 'Think about what you want from your tree house: Will it be an adult hideaway or children's play area? If you are considering a tree house for children, keep it close to the ground...' Therefore, a tree house planned as an adult hideaway can be built higher.<br><br>So, the answer is: <b>an adult hideaway</b> (or <b>adult hideaway</b>)"
+  },
+  "ess-17": {
+    "explanation": "<h4>Question 17</h4><b>You might not be allowed to prune a tree that has ...</b><br><br><b>Keywords:</b> not allowed, prune, tree that has<br><br>Passage 2, Section 'First Steps', paragraph 2, lines 1-2: 'Choose a mature, healthy tree with no special protection orders that may affect pruning.' If it has special protection orders, you might not be allowed to prune it.<br><br>So, the answer is: <b>special protection orders</b> (or <b>special protection</b>)"
+  },
+  "ess-18": {
+    "explanation": "<h4>Question 18</h4><b>Small decks will benefit from ... at different times of the day.</b><br><br><b>Keywords:</b> small decks, benefit from, different times of the day<br><br>Passage 2, Section 'First Steps', paragraph 3, lines 2-3: 'Keep the various positions of the sun in mind when planning small decks.' Sun positions differ throughout the day, so decks benefit from positions of the sun.<br><br>So, the answer is: <b>the sun</b> (or <b>positions of the sun</b>)"
+  },
+  "ess-19": {
+    "explanation": "<h4>Question 19</h4><b>Label 19 (adds strength to platform)</b><br><br><b>Keywords:</b> platform support, adds strength<br><br>Passage 2, Section 'Building a Platform', paragraph 1, lines 2-4: 'It should be built close to the trunk, with diagonal bracing for extra strength, if it is not supported by branches or posts.'<br><br>So, the answer is: <b>diagonal bracing</b>"
+  },
+  "ess-20": {
+    "explanation": "<h4>Question 20</h4><b>Label 20 (preferable to nails and screws)</b><br><br><b>Keywords:</b> preferable to nails and screws, rope<br><br>Passage 2, Section 'Building a Platform', paragraph 1, lines 6-9: 'Ideally use rope lashing, but make sure you know the right knots. If necessary, use strong galvanised steel screws...' This implies rope lashing is ideal/preferable.<br><br>So, the answer is: <b>rope lashing</b>"
+  },
+  "ess-21": {
+    "explanation": "<h4>Question 21</h4><b>Label 21 (constructed from plywood sheets or old boards)</b><br><br><b>Keywords:</b> constructed, plywood sheets, old boards<br><br>Passage 2, Section 'Building a Platform', paragraph 2, lines 1-2: 'Once the platform is secure, you need to add the floor. For this you might use plywood sheets or conventional floorboards.'<br><br>So, the answer is: <b>floor</b>"
+  },
+  "ess-22": {
+    "explanation": "<h4>Question 22</h4><b>Label 22 (adds protection to roof)</b><br><br><b>Keywords:</b> roof, adds protection<br><br>Passage 2, Section 'Building a Platform', paragraph 2, lines 8-10: 'Once in position, the roof should be covered and protected with roofing felt.'<br><br>So, the answer is: <b>roofing felt</b>"
+  },
+  "ess-23": {
+    "explanation": "<h4>Question 23</h4><b>Label 23 (most suitable materials for windows)</b><br><br><b>Keywords:</b> suitable materials, windows<br><br>Passage 2, Section 'Windows and Doors', lines 4-5: 'For safety and lightness, use Perspex or Plexiglas instead of glass for windows.' (Both Perspex and Plexiglas are acceptable).<br><br>So, the answer is: <b>Perspex // Plexiglas</b>"
+  },
+  "ess-24": {
+    "explanation": "<h4>Question 24</h4><b>An outside deck</b><br><br><b>Keywords:</b> outside deck, railing, low constructions<br><br>In Passage 2, Section 'Deck and Railings': 'A deck can be part of the tree house platform... the deck must be surrounded by safe railings.' Railings are safety features because sitting high up on a deck is potentially dangerous.<br><br>So, the answer is: <b>F (is a potentially dangerous option.)</b>"
+  },
+  "ess-25": {
+    "explanation": "<h4>Question 25</h4><b>A basic wooden ladder</b><br><br><b>Keywords:</b> basic wooden ladder, low height<br><br>In Passage 2, Section 'Tree House Access': 'A simple wooden or rope ladder is fine if the house is not far from the ground...' Not far from the ground = low constructions.<br><br>So, the answer is: <b>E (is best suited to low constructions.)</b>"
+  },
+  "ess-26": {
+    "explanation": "<h4>Question 26</h4><b>A rope walkway</b><br><br><b>Keywords:</b> rope walkway, connect<br><br>In Passage 2, Section 'Tree House Access': 'Sometimes it is possible to build a bridge or rope walkway from an adjacent tree...' This matches option C 'can connect one tree with another.'<br><br>So, the answer is: <b>C (can connect one tree with another.)</b>"
+  },
+  "ess-27": {
+    "explanation": "<h4>Question 27</h4><b>A rope pulley</b><br><br><b>Keywords:</b> rope pulley, carrying items<br><br>In Passage 2, Section 'Tree House Access': 'A rope pulley with a basket is indispensable for hoisting up provisions...' Hoisting up provisions = saves carrying items up. This matches option B 'saves carrying items up ladders and staircases.'<br><br>So, the answer is: <b>B (saves carrying items up ladders and staircases.)</b>"
+  },
+  "ess-28": {
+    "explanation": "<h4>Question 28</h4><b>an investigation into the extent of animal intelligence and awareness</b><br><br><b>Keywords:</b> investigation, extent, animal intelligence, awareness<br><br>In Passage 3, Section C, lines 6-10: 'Researchers have wrestled with a series of experiments to see whether animals are capable of behaving as if they had the capacity to learn, the will to improvise...' Experiments to see capacity = investigation into the extent.<br><br>So, the answer is: <b>C</b>"
+  },
+  "ess-29": {
+    "explanation": "<h4>Question 29</h4><b>the suggestion that an animal less recognised for its intelligence has an impressive memory</b><br><br><b>Keywords:</b> less recognised, impressive memory, sheep<br><br>In Passage 3, Section E, Keith Kendrick's study: 'sheep could recognise up to 50 other sheep and up to ten human faces for at least two years after first seeing them.' Sheep are generally not recognised for intelligence, but show an impressive memory here.<br><br>So, the answer is: <b>E</b>"
+  },
+  "ess-30": {
+    "explanation": "<h4>Question 30</h4><b>evidence that at least one species of animal has multiple intelligences</b><br><br><b>Keywords:</b> multiple intelligences, chimpanzee, culture, numerical tasks<br><br>In Passage 3, Section D describes chimpanzees showing culture in food handling, numerical sorting, social alliances, and self-medication (zoopharmacognosy), demonstrating multiple cognitive intelligence areas.<br><br>So, the answer is: <b>D</b>"
+  },
+  "ess-31": {
+    "explanation": "<h4>Question 31</h4><b>a comparison of what different living creatures experience emotionally</b><br><br><b>Keywords:</b> comparison, different living creatures, emotionally<br><br>In Passage 3, Section A compares how pain, fear and disgust affect mammals (wildebeest, antelope, canine, human football hooligans, deer, foxes).<br><br>So, the answer is: <b>A</b>"
+  },
+  "ess-32": {
+    "explanation": "<h4>Question 32</h4><b>an account of a supposedly simple creature that has learnt a clever trick</b><br><br><b>Keywords:</b> simple creature, clever trick, Betty, crow<br><br>In Passage 3, Section G describes Betty the crow bending a wire into a hook to retrieve food, representing a supposedly simple creature (bird) showing advanced problem solving.<br><br>So, the answer is: <b>G</b>"
+  },
+  "ess-33": {
+    "explanation": "<h4>Question 33</h4><b>acknowledgment that inherited abilities should not be seen as a measure of intelligence.</b><br><br><b>Keywords:</b> inherited abilities, measure of intelligence, instinct<br><br>In Passage 3, Section C, lines 3-6: 'But does an animal think about its state of fear? Does it have not just a mind but a theory of mind?' and Section B explains flight or fight reactions as automatic, noting 'wisdom is after the event.'<br><br>So, the answer is: <b>C</b>"
+  },
+  "ess-34": {
+    "explanation": "<h4>Question 34</h4><b>an explanation of what happens when a person is frightened</b><br><br><b>Keywords:</b> explanation, person, frightened<br><br>In Passage 3, Section B, lines 1-4: 'A human startled by a strange shape in a darkened corridor experiences a pounding heart, lungs gasping for air and a body in recoil.'<br><br>So, the answer is: <b>B</b>"
+  },
+  "ess-35": {
+    "explanation": "<h4>Question 35</h4><b>an account of how one animal got the better of another</b><br><br><b>Keywords:</b> got the better of another, pig, trough<br><br>In Passage 3, Section F describes how a weaker pig distracted a stronger 'bully' pig to get the hidden food: 'weaker pig would start to use distracting behaviour... and only lunge for the rations when not being watched.'<br><br>So, the answer is: <b>F</b>"
+  },
+  "ess-36": {
+    "explanation": "<h4>Question 36</h4><b>According to the text, which animal is hunted and eaten by lions?</b><br><br><b>Keywords:</b> animal, hunted and eaten, lions<br><br>Passage 3, Section A, lines 2-4: 'If a wildebeest did not feel pain, it would continue grazing as lions slowly devoured it.'<br><br>So, the answer is: <b>a wildebeest</b> (or <b>wildebeest</b>)"
+  },
+  "ess-37": {
+    "explanation": "<h4>Question 37</h4><b>What sort of people are given as an example of low intelligence humans?</b><br><br><b>Keywords:</b> sort of people, low intelligence, humans<br><br>Passage 3, Section A, lines 10-12: 'If football hooligans can feel those emotions, then so too do deer, foxes and dogs.'<br><br>So, the answer is: <b>football hooligans</b>"
+  },
+  "ess-38": {
+    "explanation": "<h4>Question 38</h4><b>Which phrase in section B means run away or stay and confront the danger?</b><br><br><b>Keywords:</b> phrase, section B, run away, stay and confront<br><br>Passage 3, Section B, lines 3-4: 'This is the well-known flight or fight reaction.'<br><br>So, the answer is: <b>flight or fight</b>"
+  },
+  "ess-39": {
+    "explanation": "<h4>Question 39</h4><b>According to the text, which two animals successfully completed numerical tasks?</b><br><br><b>Keywords:</b> two animals, successfully completed, numerical tasks<br><br>Passage 3, Section D, lines 4-8 describes Kyoto chimpanzee sorting numerals 1 to 9, and Columbia monkeys distinguishing numbers 1 to 4. Therefore: chimpanzees and monkeys.<br><br>So, the answer is: <b>chimpanzees and monkeys</b>"
+  },
+  "ess-40": {
+    "explanation": "<h4>Question 40</h4><b>What type of tool did Betty the crow make from a piece of wire?</b><br><br><b>Keywords:</b> type of tool, Betty the crow, wire<br><br>Passage 3, Section G, lines 2-5: 'She repeatedly picks up a straight piece of wire, bends it into a hook and uses the hook to lift an appetising treat...' Bends into a hook = a hook.<br><br>So, the answer is: <b>a hook</b> (or <b>hook</b>)"
   }
 };

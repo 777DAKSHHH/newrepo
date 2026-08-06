@@ -71,7 +71,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const testNames = {
       'cam6': 'Cambridge 6 • Reading Test 2',
       'ontrack': 'IELTS On Track • Reading Test 2',
-      'cam16': 'Cambridge 16 • Reading Test 1'
+      'cam16': 'Cambridge 16 • Reading Test 1',
+      'essentials1': 'Exam Essentials 1 • Reading Test 1'
     };
     if (toolbarTitle) toolbarTitle.textContent = testNames[currentTestId] || 'IELTS Practice';
 
@@ -351,11 +352,53 @@ document.addEventListener('DOMContentLoaded', function() {
       "27": "B", "28": "D", "29": "C", "30": "D",
       "31": "G", "32": "E", "33": "C", "34": "F",
       "35": "B", "36": "A", "37": "C", "38": "A", "39": "B", "40": "C"
+    },
+    "essentials1": {
+      "1": "B",
+      "2": "C",
+      "3": "A",
+      "4": "D",
+      "5": "B",
+      "6": "D",
+      "7": "C",
+      "8": "D",
+      "9": "B",
+      "10": "A",
+      "11": "C",
+      "12": "B",
+      "13": "LOCAL PLANNING AUTHORITIES",
+      "14": "PERMANENT DWELLING",
+      "15": ["SAFTEY HARNESS", "SAFETY HARNESS"],
+      "16": ["AN ADULT HIDEAWAY", "ADULT HIDEAWAY"],
+      "17": ["SPECIAL PROTECTION ORDERS", "SPECIAL PROTECTION"],
+      "18": ["THE SUN", "SUN", "POSITIONS OF THE SUN"],
+      "19": "DIAGONAL BRACING",
+      "20": "ROPE LASHING",
+      "21": "FLOOR",
+      "22": "ROOFING FELT",
+      "23": ["PERSPEX", "PLEXIGLAS"],
+      "24": "F",
+      "25": "E",
+      "26": "C",
+      "27": "B",
+      "28": "C",
+      "29": "E",
+      "30": "D",
+      "31": "A",
+      "32": "G",
+      "33": "C",
+      "34": "B",
+      "35": "F",
+      "36": ["A WILDEBEEST", "WILDEBEEST"],
+      "37": "FOOTBALL HOOLIGANS",
+      "38": "FLIGHT OR FIGHT",
+      "39": "CHIMPANZEES AND MONKEYS",
+      "40": ["A HOOK", "HOOK"]
     }
   };
 
   function verifyAnswer(qId) {
-    const lookupKey = qId.replace('ot-', '').replace('c16-', '');
+    const lookupKey = qId.replace('ot-', '').replace('c16-', '').replace('ess-', '');
     const activeTestAnswers = ieltsAnswerKeys[currentTestId];
     if (!activeTestAnswers) return false;
     const expected = activeTestAnswers[lookupKey];
@@ -410,22 +453,46 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.passage-highlight').forEach(el => el.classList.remove('passage-highlight'));
 
     // Try multiple possible element IDs matching different test formats:
-    // e.g. "q1-ref", "qot-1-ref", "qc16-1-ref", "qot-ot-1-ref", "q-c16-1-ref"
     const lookupId = qId.toString().trim();
     const refElement = 
+      document.getElementById(lookupId) ||
+      document.getElementById(`${lookupId}-ref`) ||
       document.getElementById(`q${lookupId}-ref`) || 
       document.getElementById(`q-${lookupId}-ref`) ||
       document.getElementById(`qot-${lookupId}-ref`) ||
-      document.getElementById(`qc16-${lookupId}-ref`) ||
-      document.getElementById(`q-${lookupId.replace('c16-', 'c16-')}-ref`) ||
-      document.getElementById(`${lookupId}-ref`);
+      document.getElementById(`qc16-${lookupId}-ref`);
     
     if (refElement) {
       refElement.classList.add('passage-highlight');
-      refElement.scrollIntoView({
-        behavior: 'smooth',
-        block: 'center'
-      });
+
+      const isMobile = window.innerWidth <= 991;
+      if (isMobile) {
+        // Automatically switch mobile tabs to show the passage panel
+        const btnPassage = document.getElementById('mobile-btn-passage');
+        const btnQuestions = document.getElementById('mobile-btn-questions');
+        const activePassage = document.querySelector(`.test-content:not(.d-none) .panel-passage`);
+        const activeQuestions = document.querySelector(`.test-content:not(.d-none) .panel-questions`);
+
+        if (btnPassage && btnQuestions) {
+          btnPassage.classList.add('active');
+          btnQuestions.classList.remove('active');
+        }
+        if (activePassage) activePassage.classList.add('active-mobile-panel');
+        if (activeQuestions) activeQuestions.classList.remove('active-mobile-panel');
+
+        // Delay the scroll to allow panel layout to compute after display: block
+        setTimeout(() => {
+          refElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+          });
+        }, 150);
+      } else {
+        refElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'
+        });
+      }
     }
   }
 
@@ -443,7 +510,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Grade all questions
     for (let i = 1; i <= totalQuestions; i++) {
       // Support prefix for different test questions
-      const qKey = currentTestId === 'ontrack' ? `ot-${i}` : (currentTestId === 'cam16' ? `c16-${i}` : i.toString());
+      const qKey = currentTestId === 'ontrack' ? `ot-${i}` : 
+                   (currentTestId === 'cam16' ? `c16-${i}` : 
+                   (currentTestId === 'essentials1' ? `ess-${i}` : i.toString()));
       const isCorrect = verifyAnswer(qKey);
       if (isCorrect) correctCount++;
 
@@ -475,7 +544,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Show Results Card at top of questions pane
     const activeResultsContainer = document.getElementById(
       currentTestId === 'ontrack' ? 'ot-exam-results-container' : 
-      (currentTestId === 'cam16' ? 'c16-exam-results-container' : 'exam-results-container')
+      (currentTestId === 'cam16' ? 'c16-exam-results-container' : 
+      (currentTestId === 'essentials1' ? 'ess-exam-results-container' : 'exam-results-container'))
     );
 
     if (activeResultsContainer) {
